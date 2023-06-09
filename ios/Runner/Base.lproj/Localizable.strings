@@ -1,0 +1,20 @@
+"notification_title_duty_finished"="Duty finished \uD83C\uDFD6.";
+"notification_body_duty_finished"="Your duty has been finished.";
+"notification_title_patrol_finished"="Patrol finished \uD83E\uDDBA.";
+"notification_body_patrol_finished"="Patrol has been finished.";
+"notification_title_duty_scheduled"="Upcoming duty \u23F0.";
+"notification_body_duty_scheduled"="Your duty will start in %1$s minutes.";
+"notification_title_duty_confirm"="Confirm duty \uD83D\uDC82.";
+"notification_body_duty_confirm"="It is time to start your duty. If you have not
+        already done so, please confirm your presence in the app.";
+"notification_title_duty_confirm_reminder"="Confirm duty reminder \uD83D\uDCA4.";
+"notification_body_duty_confirm_reminder"="You have an ongoing duty that requires
+        confirmation in the app.";
+"notification_title_patrol_inactive"="Problem with your patrol has been detected
+        \u26A0.";
+"notification_body_patrol_inactive"="Check your phone settings (Internet
+        connection, power saving mode, location access).";
+"notification_title_patrol_soon_expires"="Patrol will expire soon \u23F0.";
+"notification_body_patrol_soon_expires"="Your patrol will expire soon.";
+"notification_title_duty_soon_expires"="Duty will expire soon \u23F0.";
+"notification_body_duty_soon_expires"="Your duty will expire soon.";

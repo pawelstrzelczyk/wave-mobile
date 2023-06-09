@@ -1,0 +1,119 @@
+name: wave
+description: wave mobile app
+
+version: 1.9.4+67
+
+environment:
+  sdk: ">=2.17.5 <3.7.10"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  mqtt_client: ^9.8.1
+  provider: ^6.0.5
+  flutter_map: ^3.1.0
+  latlong2: ^0.8.1
+  jwt_decoder: ^2.0.1
+  intl: ^0.17.0
+  flutter_dotenv: ^5.0.2
+  dio: ^5.1.1
+  flutter_svg: ^2.0.4
+  fluttertoast: ^8.1.2
+  dropdown_search: ^5.0.5
+  shared_preferences: ^2.0.15
+  visibility_detector: ^0.4.0+2
+  geolocator: ^9.0.2
+  sentry_flutter: ^7.4.0
+  auto_route: ^5.0.4
+  aad_oauth: ^0.4.1
+  url_launcher: ^6.1.7
+  material_design_icons_flutter: ^6.0.7096
+  firebase_messaging: ^14.2.0
+  firebase_core: ^2.4.0
+  flutter_form_builder: ^7.8.0
+  flutter_native_splash: ^2.2.19
+  flutter_slidable: ^2.0.0
+  package_info_plus: ^3.0.2
+  in_app_update: ^4.0.1
+  device_info_plus: ^8.0.0
+  dartz: ^0.10.1
+  location: ^4.4.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.1
+  build_runner: ^2.3.2
+  auto_route_generator: ^5.0.3
+  flutter_launcher_icons: ^0.12.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+flutter_icons:
+  image_path: "assets/images/wave-playstore.png"
+  android: "launcher_icon"
+  min_sdk_android: 21
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  generate: true
+
+  #To add assets to your application, add an assets section, like this:
+  assets:
+    - .env
+    - assets/images/logo.svg
+    - assets/images/logo_umww.png
+    - assets/images/wave-playstore.png
+    - assets/images/patrol_notification_blue.svg
+    - assets/images/patrol_notification_circle.svg
+    - assets/images/patrol_notification_white.svg
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+          style: italic
+
+flutter_intl:
+  enabled: true
+
+flutter_native_splash:
+  color: "#050a30"
+  image: assets/images/Wave.png
+  android: true
+  ios: true
+
+  android_12:
+    color: "#050a30"
+    image: assets/images/Wave.png

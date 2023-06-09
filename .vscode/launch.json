@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "wave-mobile",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "wave-mobile (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "wave-mobile (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+            
+        },
+        {
+            "name": "wave-mobile (debug mode)",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+    
+            "env": {
+                "RELEASE_MODE": true
+            },
+    
+            "args": [
+                "--dart-define", "MY_VAR=foo"
+            ],
+            "console": "debugConsole",
+            "flutterMode": "debug",
+            "runTestsOnDevice": false,
+        }
+    ]
+}

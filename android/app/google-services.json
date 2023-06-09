@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "572033814108",
+    "project_id": "wave-9c70e",
+    "storage_bucket": "wave-9c70e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572033814108:android:00b0d414be400bdbdea099",
+        "android_client_info": {
+          "package_name": "pl.put.wavemobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572033814108-f8jotci7via6rq34ulo5o366j11lcvq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pl.put.wavemobile",
+            "certificate_hash": "69037dfbca267a8438f15aee8c566832bb7f7c6c"
+          }
+        },
+        {
+          "client_id": "572033814108-dg53j7an4efopd3v3f0tekfrraku5foo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2WTKhqz3y8hRBR8FqJZzQZzFDoh9Qgro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572033814108-dg53j7an4efopd3v3f0tekfrraku5foo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "572033814108-865mm4h0ttsvvrp68bgasrrg0esnj5f9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wave"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

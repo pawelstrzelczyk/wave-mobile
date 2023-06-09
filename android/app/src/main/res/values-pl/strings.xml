@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_title_duty_finished">Zakończono dyżur \uD83C\uDFD6</string>
+    <string name="notification_body_duty_finished">Twój dyżur został zakończony.</string>
+    <string name="notification_title_patrol_finished">Zakończono patrol \uD83E\uDDBA</string>
+    <string name="notification_body_patrol_finished">Twój patrol został zakończony.</string>
+    <string name="notification_title_duty_scheduled">Nadchodzący dyżur \u23F0</string>
+    <string name="notification_body_duty_scheduled">Twój dyżur rozpocznie się za %1$s
+        minut.</string>
+    <string name="notification_title_duty_confirm">Potwierdź dyżur \uD83D\uDC82</string>
+    <string name="notification_body_duty_confirm">Nadszedł czas na rozpoczęcie dyżuru. Jeśli nie
+        zostało to jeszcze zrobione, potwierdź swoją obecność w aplikacji.</string>
+    <string name="notification_title_duty_confirm_reminder">Przypomnienie o potwierdzeniu dyżuru
+        \uD83D\uDCA4</string>
+    <string name="notification_body_duty_confirm_reminder">Masz trwający dyżur, który wymaga
+        potwierdzenia w aplikacji.</string>
+    <string name="notification_title_patrol_inactive">Wykryto problem z Twoim patrolem \u26A0</string>
+    <string name="notification_body_patrol_inactive">Sprawdź ustawienia telefonu (połączenie z
+        Internetem, tryb oszczędzania energii, dostęp do lokalizacji).</string>
+    <string name="notification_title_patrol_soon_expires">Patrol wygasa \u23F0</string>
+    <string name="notification_body_patrol_soon_expires">Twój patrol wkrótce wygaśnie.</string>
+    <string name="notification_title_duty_soon_expires">Dyżur wygasa \u23F0</string>
+    <string name="notification_body_duty_soon_expires">Twój dyżur wkrótce wygaśnie.</string>
+</resources>
